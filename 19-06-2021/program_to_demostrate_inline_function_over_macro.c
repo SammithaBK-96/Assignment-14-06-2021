@@ -20,8 +20,7 @@ int main()
     printf("Enter the number\n");
     scanf("%d",&num);
     printf("cube using inline function : %d\n",cube(num));
-    printf("cube using macro function : %d\n",CUBE(num));// In pre-processor stage SQR(++num) 
-                                                            // will be expanded as ++num*++num
+    printf("cube using macro function : %d\n",CUBE(num));
     return 0;
 }
 
